@@ -66,7 +66,7 @@ html:root {
 /* banner */
 
 .debug #site-header #banner div {
-    width: 32rem;
+    width: 100%;
     height: 25rem;
     background-color: grey; 
     border: var(--debug-border);
@@ -77,8 +77,54 @@ html:root {
 }
 
 #site-header #banner div {
-    margin: 3rem 0; 
+    margin: 3rem 6rem; 
 }
 /* endBanner */
 
 /* endHeader */
+
+/* siteMain */
+.debug #site-main .section-content {
+    height: 32rem;
+    width: 100%;
+    border: var(--debug-border);
+    background-color: grey
+ }
+
+.debug #site-main .section-content .image {
+    background-color: beige;
+    width: 40%;
+    height: 100%;
+    border: var(--debug-border);
+ }
+
+.debug #site-main .section-content .text {
+    background-color: brown;
+    width: 60%;
+    height: 100%;
+    border: var(--debug-border);
+ }
+
+ .debug #site-main .odd-section #big-content {
+    width: 100%;
+    height: 60rem;
+    background-color: green;
+ }
+
+#site-main .section-content{
+    margin: 3rem 0
+ }
+
+#site-main .even-section {
+    background-color: var(--main-color);
+}
+
+#site-main .odd-section {
+    background-color: var(--secondary-color);
+}
+
+#site-main .odd-section #big-content {
+    margin: 3rem 0;
+}
+
+/* endSiteMain */
