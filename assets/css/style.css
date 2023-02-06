@@ -30,24 +30,19 @@ html:root {
     background-color: pink;
 }
 
-.debug #site-header .banner {
-    height: 20rem;
-    border: var(--debug-border);
-    background-color:aqua;
+#site-header {
+    background-color: var(--header-color);
 }
 
-.debug #site-header nav div {
+
+/* topHeader  */
+.debug #site-header #top-header nav div {
     border: var(--debug-border);
 }
 
 .debug #site-header #top-header nav {
     height: 3rem;
     background-color: yellow;
-}
-
-
-#site-header {
-    background-color: var(--header-color);
 }
 
 #site-header #top-header {
@@ -60,13 +55,30 @@ html:root {
     justify-content: space-between;
 }
 
-
 #site-header #top-header nav div{
     width: calc((100%/12)*2.5);
 }
 
-#menu {
+#site-header #top-header nav #menu {
    flex-grow: 3;
 }
+/* endTopHeader */
+/* banner */
+
+.debug #site-header #banner div {
+    width: 32rem;
+    height: 25rem;
+    background-color: grey; 
+    border: var(--debug-border);
+}
+
+#site-header #banner {
+    justify-content: center;
+}
+
+#site-header #banner div {
+    margin: 3rem 0; 
+}
+/* endBanner */
 
 /* endHeader */
