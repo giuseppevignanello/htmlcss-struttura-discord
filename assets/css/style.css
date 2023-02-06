@@ -11,4 +11,62 @@
     display: flex;
 }
 
+html:root {
+    --header-color: #3161e0;
+    --main-color: #ffffff;
+    --secondary-color: #f6f6f6;
+    --footer-background-color: #23272a;
+    --footer-text-color: #6d84d1; 
+    --debug-border: 2px solid red; 
+
+}
+
 /* endGeneral  */
+
+/* header */
+.debug #site-header #top-header {
+    height: 5rem; 
+    border: var(--debug-border);
+    background-color: pink;
+}
+
+.debug #site-header .banner {
+    height: 20rem;
+    border: var(--debug-border);
+    background-color:aqua;
+}
+
+.debug #site-header nav div {
+    border: var(--debug-border);
+}
+
+.debug #site-header #top-header nav {
+    height: 3rem;
+    background-color: yellow;
+}
+
+
+#site-header {
+    background-color: var(--header-color);
+}
+
+#site-header #top-header {
+    display: flex;
+    justify-content:center;
+}
+
+#site-header #top-header nav {
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+
+#site-header #top-header nav div{
+    width: calc((100%/12)*2.5);
+}
+
+#menu {
+   flex-grow: 3;
+}
+
+/* endHeader */
