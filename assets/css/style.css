@@ -43,6 +43,14 @@ html:root {
 .full-height {
     height: 100%;
 }
+
+.col-4{
+    width: calc((100%/12)*4);
+}
+
+.col-2{
+    width: calc((100%/12)*2);
+} 
 /* endUtility */
 
 /* header */
@@ -67,7 +75,7 @@ html:root {
 }
 
 #site-header #top-header nav div{
-    width: calc((100%/12)*2.5);
+    width: calc((100%/12)*2);
 }
 
 #site-header #top-header nav #menu {
@@ -171,11 +179,10 @@ html:root {
 }
 
 #site-footer #top-footer #language-social-section {
-    width: 30%;
+    width: calc((100%/12)*4);
 }
 #site-footer #top-footer #footer-menu div {
-    width: 25%
+    width: calc((100%12)*2)
 }
-
 
 /* endSiteFooter */
