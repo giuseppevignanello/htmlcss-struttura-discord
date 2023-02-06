@@ -142,13 +142,34 @@ html:root {
     border: var(--debug-border);
 }
 
-.debug #site-footer section #bottom-footer{
+.debug #site-footer #bottom-footer{
     width: 100%;
     height: 5rem;
     background-color: lightcoral;
     border: var(--debug-border);
 }
 
+.debug #site-footer #top-footer #language-social-section {
+    height: 100%;
+    background-color: #6d84d1;
+    border: var(--debug-border);
+}
+
+.debug #site-footer #top-footer #footer-menu{
+    height: 100%;
+    background-color: #3161e0;
+    border: var(--debug-border);
+}
+
+
+.debug #site-footer #top-footer #footer-menu div {
+    border: var(--debug-border);
+}
+
+.debug #site-footer #bottom-footer img,button {
+    border: var(--debug-border);
+    margin: 1.5rem 0;
+}
 
 #site-footer {
     background-color: var(--footer-background-color);
@@ -164,8 +185,16 @@ html:root {
 }
 #site-footer #footer-container #bottom-footer {
     margin-bottom: 0;
+    justify-content: space-between;
 }
 
+#site-footer #top-footer #language-social-section {
+    width: 30%;
+}
+
+#site-footer #top-footer #footer-menu div {
+    width: 25%
+}
 
 
 /* endSiteFooter */
