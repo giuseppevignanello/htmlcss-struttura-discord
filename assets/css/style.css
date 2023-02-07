@@ -54,47 +54,50 @@ html:root {
     background-color: var(--header-color);
 }
 
-/* topHeader  */
-
-.debug #site-header #top-header {
+.debug #site-header {
     height: 5rem; 
     background-color: pink;
 }
 
-.debug #site-header #top-header nav {
+.debug #site-header>div {
     height: 3rem;
     background-color: yellow;
 }
 
-#site-header #top-header nav {
+#site-header>div {
     margin: 1rem 0;
 }
 
-#site-header #top-header nav div{
+#logo, #menu, #login{
     width: calc((100%/12)*2);
 }
 
-#site-header #top-header nav #menu {
+#site-header nav {
    flex-grow: 3;
 }
-/* endTopHeader */
+/* endHeader */
 
+
+/* siteMain */
 /* banner */
-
-.debug #site-header #banner div {
+.debug  #banner{
+    background-color: blue;
+}
+.debug  #banner div {
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
     height: 25rem;
     background-color: grey; 
 }
 
 
-#site-header #banner div {
-    margin: 3rem 6rem; 
+ #banner div {
+    margin: 3rem;
+    padding: 0 6rem; 
 }
 /* endBanner */
 
-/* endHeader */
-
-/* siteMain */
 .debug #site-main .section-content {
     height: 32rem;
     background-color: grey
